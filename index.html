@@ -76,7 +76,7 @@
         That's all about me.
         </p>
       <div class="button">
-        <button>Download CV</button>
+      <a href="https://drive.google.com/file/d/1omsE94zXtYxurYIJM0zriQuoWWqIC57J/view?usp=sharing"> <button>Download CV</button></a> 
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@
       <div class="topic">Have Any Project?</div>
       <p>We create and build websites and web pages by combining any number of visual design elements including text, photos, graphics, animations and videos. We create a brand new website or simply make updates to the design and layout of existing pages.</p>
       <div class="button">
-       <a href="contactus.html"> <button>Let's Chat</button></a>
+       <a href="#contactus"> <button>Let's Chat</button></a>
       </div>
     
         </div>
@@ -187,10 +187,18 @@
     </div>
   </div>
 </section>
-<!-- contact us
+
+
+<!-- contact us-->
+<link rel="stylesheet" href="style1.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+<section class="contactus" id="contactus">
 <div class="container">
   <span class="big-circle"></span>
-  <img src="img/shape.png" class="square" alt="" />
+  <!--img src="img/shape.png" class="square" alt="" /-->
   <div class="form">
     <div class="contact-info">
       <h3 class="title">Let's get in touch</h3>
@@ -201,7 +209,7 @@
       <div class="info">
         <div class="information">
           <img src="img/location.png" class="icon" alt="" />
-          <p>RAMNAGAR PURNIA BIHAR, 854301</p>
+          <p>Ramnagar purnea Bihar, 854301</p>
         </div>
         <div class="information">
           <img src="img/email.png" class="icon" alt="" />
@@ -209,33 +217,60 @@
         </div>
         <div class="information">
           <img src="img/phone.png" class="icon" alt="" />
-          <p>9931648101</p>
+          <p>+91-9931648101</p>
         </div>
       </div>
 
       <div class="social-media">
         <p>Connect with us :</p>
         <div class="social-icons">
-          <a href="https://www.facebook.com/profile.php?id=100021875078002">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://twitter.com/20bce10724">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.instagram.com/vivek2526singh/">
-            <i class="fab fa-instagram"></i>
+          <a href="https://github.com/vivekkumar854301">
+            <i class="fab fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/vivek-kumar-782317209/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://www.linkedin.com/in/vivek-kumar-782317209/">
-            <i class="fab fa-github"></i>
+          <a href="https://twitter.com/20bce10724">
+            <i class="fab fa-twitter"></i>
           </a>
         </div>
       </div>
     </div>
 
-end contact us-->
+    <div class="contact-form">
+      <span class="circle one"></span>
+      <span class="circle two"></span>
+
+      <form action="#" autocomplete="off">
+        <h3 class="title">Contact us</h3>
+        <div class="input-container">
+          <input type="text" name="name" class="input" />
+          <label for="">Username</label>
+          <span>Username</span>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" class="input" />
+          <label for="">Email</label>
+          <span>Email</span>
+        </div>
+        <div class="input-container">
+          <input type="tel" name="phone" class="input" />
+          <label for="">Phone</label>
+          <span>Phone</span>
+        </div>
+        <div class="input-container textarea">
+          <textarea name="message" class="input"></textarea>
+          <label for="">Message</label>
+          <span>Message</span>
+        </div>
+        <input type="submit" value="Send" class="btn" />
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--end contact us-->
 <!-- Footer Section Start -->
 <footer>
   <div class="text">
@@ -244,5 +279,6 @@ end contact us-->
 </footer>
 
   <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
